@@ -1,0 +1,63 @@
+/* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;} */
+    body
+    {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:url("https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000");
+    background-size:cover;
+    background-position: center;
+    }
+
+    .signin{
+        align-self: center;
+        text-align: center;
+        align-items: center;
+        align-items: center;
+    }
+    
+    input
+    {
+    
+    display:block;
+    width:350px;
+    height:40px;
+    margin:20px;
+    border:none;
+    outline:none;
+    font-size:20px;
+    border-bottom:1px solid black;
+    background:transparent;
+    }
+  
+    .btnn
+    {
+    width:350px;
+    height:40px;
+    font-size:20px;
+    background-color:rgb(41, 116, 208);
+    border:none;
+    color:white;
+    margin-top:20px;
+    cursor: pointer;
+    }
+    .btnn:hover{
+        background-color: blue;
+        transition: 0.4s;
+    }
+    h1{
+        align-items: center;
+        margin-bottom:30px;
+    }
+    ::placeholder{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+    color: rgba(0,0,0,0.5);
+    }

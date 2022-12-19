@@ -1,0 +1,84 @@
+body {
+    background-color:#EC672C;
+  }
+  .login-container {
+  
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-options {
+    margin-bottom: auto;
+    margin-top: 20%;
+  }
+  .google{
+    opacity: 1;
+    margin-top: auto;
+    margin-bottom: 2cm;
+    border: #EC672C;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  .google :hover{
+    opacity: 0.4;
+   
+  }
+  .twitter{
+    opacity: 1;
+    margin-top: auto;
+    margin-bottom: 2cm;
+    border: #EC672C;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  .twitter :hover{
+    opacity: .4;
+  }
+  .linkedin{
+    opacity: 1;
+    margin-top: auto;
+    margin-bottom: 2cm;
+    border: #EC672C;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  .linkedin :hover{
+    opacity: 0.4;
+  }
+  .btn{
+  
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #eb5f24;
+    transition: 0.3s;
+  }
+  input[type=text], input[type=password] {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 0, 0);
+  }
+  
+  
